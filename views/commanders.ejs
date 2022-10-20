@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commanders List</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Nation</th>
+            <th>Age</th>
+            <th>Military Force</th>
+            <th>Count Troops</th>
+        </tr>
+        <% data.forEach(el => { %>
+        <tr>
+            <td></td>
+            <td><%= el.titleName %></td>
+            <td><%= el.nation %></td>
+            <td><%= el.age %></td>
+            <td><%= formatInt(el.militaryForce) %></td>
+            <td></td>
+        </tr>
+        <% }) %>
+    </table>
+</body>
+</html>

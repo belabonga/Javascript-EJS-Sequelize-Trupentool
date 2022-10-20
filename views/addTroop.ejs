@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ADD NEW TROOP</title>
+</head>
+<body>
+    <h1>ADD NEW TROOP HERE</h1>
+    
+    <form action="/troops/train" method="post">
+    <!-- NAME -->
+        <label for="name">Name : </label>
+        <select name="name">
+        <option value="Phalanx">Phalanx</option>
+        <option value="Teutonic Knight">Teutonic Knight</option>
+        <option value="Theutates Thunder">Theutates Thunder</option>
+        <option value="Equites Imperatoris">Equites Imperatoris</option>
+        </select>
+    <br>
+    <br>
+
+    <!-- TRIBE -->
+    <label for="tribe">Choose Tribe : </label>
+    <input type="radio" name="tribe" value="Gallia">Gallia
+    <input type="radio" name="tribe" value="Teuton">Teuton
+    <input type="radio" name="tribe" value="Roman">Roman
+    <br>
+    <br>
+
+    <!-- TYPE -->
+    <label for="tribe">Choose Type : </label>
+    <input type="radio" name="type" value="Infantry">Infantry
+    <input type="radio" name="type" value="Cavalry">Cavalry
+    <br>
+    <br>
+
+    <!-- Commander -->
+    <select name="name">
+        <option value="Phalanx">Phalanx</option>
+    </select>
+
+    </form>
+
+    <br>
+    <button type="submit">Add New Troop</button>
+</body>
+</html>

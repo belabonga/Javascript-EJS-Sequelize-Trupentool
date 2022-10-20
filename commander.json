@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Alfonso de Albuquerque",
+        "nation": "Portuguese",
+        "age" : 38
+    },
+    {
+        "name" : "Vercingetorix",
+        "nation": "Gallia",
+        "age" : 28
+    },
+    {
+        "name" : "Napoleon Bonaparte",
+        "nation": "French",
+        "age" : 39
+    },
+    {
+        "name" : "Attila the Hun",
+        "nation": "Hungary",
+        "age" : 28
+    }
+]
